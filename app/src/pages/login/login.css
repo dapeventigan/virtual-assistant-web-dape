@@ -1,0 +1,45 @@
+.login__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__container{
+    background-color: var(--color-white);
+    margin-top: 5rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    padding: 3rem;
+}
+
+.form__container{
+    margin-top: 1rem;
+}
+
+.insideform__container > h2{
+    margin-top: 20px;
+}
+
+.input__container{
+    display: flex;
+    flex-direction: column;
+}
+
+.input__container > input {
+    border: 1px solid black;
+}
+
+.input__form{
+    height: 1rem;
+    padding: 15px;
+    border-radius: 7px;
+}
+
+.password__container{
+    display: flex;
+}
+.password__container > input{
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 0.5rem;
+}
